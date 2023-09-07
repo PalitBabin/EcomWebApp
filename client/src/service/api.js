@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://ecomwebapp-backend.onrender.com/';
+const URL = 'https://ecomwebapp-backend.onrender.com';
 
 export const authenticateSignup = async (data) => {
   try {
