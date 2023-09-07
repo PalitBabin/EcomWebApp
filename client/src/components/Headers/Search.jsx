@@ -63,7 +63,7 @@ const Search = () => {
                 text && 
                 <ListWrapper>
                         {
-                            products.filter(product=>product.title.longTitle.toLowerCase().includes(text.toLowerCase())).map(product=>(
+                            products && products.filter(product=>product.title.longTitle.toLowerCase().includes(text.toLowerCase())).map(product=>(
                                 <ListItem key={product.id}>
                                     <Link to={`product/${product.id}`}
                                     onClick={()=>setText('')}
