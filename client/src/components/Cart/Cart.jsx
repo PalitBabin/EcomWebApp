@@ -67,7 +67,7 @@ const Cart = () => {
             description: "Test Transaction",
             image: "https://e1.pxfuel.com/desktop-wallpaper/595/1008/desktop-wallpaper-shin-chan-cartoon-most-popular-sinchan-mobile-thumbnail.jpg",
             order_id:id, 
-            callback_url:'http://localhost:8000/verification' ,
+            callback_url:'https://ecomwebapp-backend.onrender.com/verification' ,
             prefill: {
                 name: "Gaurav Kumar",
                 email: "gaurav.kumar@example.com",

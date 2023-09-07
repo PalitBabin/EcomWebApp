@@ -1,4 +1,4 @@
-import { log } from "console";
+
 import { instance } from "../index.js";
 import crypto from 'crypto';
 
