@@ -26,7 +26,7 @@ export const paymentVerification = async (req, res) => {
     
     if (generated_signature === razorpay_signature) {
       
-      res.redirect(`https://${process.env.CLIENT_BASE_URL}/paymentsuccess?reference=${razorpay_payment_id}`);
+      res.redirect(`https://ecom-web-app-omega.vercel.app/paymentsuccess?reference=${razorpay_payment_id}`);
     }
   } catch (error) {
     res.status(400).json({success: false});
